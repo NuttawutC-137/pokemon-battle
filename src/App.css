@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20;
+    font-style: normal;
+}
+
+.battlefiled {
+    margin: 0 auto;
+    position: relative;
+    width: 900px;
+    height: 780px;
+    background-image: url(images/battleground.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bgimage {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+div.parent {
+    position: relative;
+    height: 635px;
+}
+
+div.absoluteB {
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    bottom: 0;
+}
+
+div.absoluteR {
+    position: absolute;
+    right: 0;
+}
+
+div.absoluteL {
+    position: absolute;
+    left: 0;
+}
+
+p {
+    font-size: 24px;
+}
+
+.pMenu {
+    color: aliceblue;
+    font-size: 24px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+}
+
+.b-com {
+    height: 300px;
+    background-color: aqua;
+}
+
+.Mbottom {
+    bottom: 9rem;
+}
+
+.Mtop {
+    top: 15rem;
+}
